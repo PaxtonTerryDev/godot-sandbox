@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://d1anldijndl5y"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 0
+offset_right = 54.0
+offset_bottom = 23.0
+scale = Vector2(2, 2)
+text = "Level 2
+"

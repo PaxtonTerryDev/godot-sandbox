@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://cx1w14kil1hxx"]
+
+[ext_resource type="SpriteFrames" uid="uid://bc81n2gfk5rh7" path="res://tile-based-movement/test/player/idle/warrior-idle.tres" id="1_o51df"]
+[ext_resource type="Script" path="res://tile-based-movement/player.gd" id="1_xpnio"]
+[ext_resource type="Script" path="res://tile-based-movement/warrior-animation-controller.gd" id="2_2vxua"]
+
+[node name="Player" type="Node2D"]
+script = ExtResource("1_xpnio")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(6, -22)
+sprite_frames = ExtResource("1_o51df")
+script = ExtResource("2_2vxua")
